@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Test_scripts.DWS_Login007_Test">
+        <methods>
+          <include name="creditcard"/>
+          <include name="beforetest"/>
+          <include name="Afterclass"/>
+          <include name="Aftertmethod"/>
+          <include name="Aftersuite"/>
+          <include name="beforeclass"/>
+          <include name="beforetmethod"/>
+          <include name="Aftertest"/>
+          <include name="beforesuite"/>
+        </methods>
+      </class> <!-- Test_scripts.DWS_Login007_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
